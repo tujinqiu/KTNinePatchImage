@@ -21,6 +21,7 @@ typedef struct SNKNinePatchPaddingCap {
 @property(nonatomic, strong) UIImage *image;
 @property(nonatomic, assign) SNKNinePatchPaddingCap paddingCap;
 
++ (instancetype)ninePatchImageWithName:(NSString *)name;
 + (instancetype)ninePatchImageWithImageData:(NSData *)data;
 + (instancetype)ninePatchImageWithImageData:(NSData *)data scale:(NSInteger)scale;
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43BA3C8F41600CBCD42F9DC9 /* libPods-KTNinePatchImageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87406884C898641C12E879CC /* libPods-KTNinePatchImageUITests.a */; };
+		5502932579B8CAD2648FAE7A /* libPods-KTNinePatchImageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0FE7668BDC0A9B7CABE888 /* libPods-KTNinePatchImageTests.a */; };
 		9C72BBAE2197EB240076511E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBAD2197EB240076511E /* AppDelegate.m */; };
 		9C72BBB12197EB240076511E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBB02197EB240076511E /* ViewController.m */; };
 		9C72BBB42197EB240076511E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C72BBB22197EB240076511E /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 		9C72BBE82197FDAA0076511E /* SNKNinePatchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */; };
 		9C72BBE92197FDAA0076511E /* SNKNinePatchImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */; };
 		9C72BBEA2197FDAA0076511E /* SNKNinePatchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */; };
+		9C72BBEC2198480B0076511E /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C72BBEB2198480B0076511E /* test1.png */; };
+		EE78DE84488D162FDC37B25A /* libPods-KTNinePatchImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D601D8B3AC12A2237EB9C93 /* libPods-KTNinePatchImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D7331857C3AB521112D0D71 /* Pods-KTNinePatchImageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImageUITests/Pods-KTNinePatchImageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60256674E3E2E716F5329292 /* Pods-KTNinePatchImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImageTests/Pods-KTNinePatchImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83788A7B6DDEF879BF15B48B /* Pods-KTNinePatchImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImageTests/Pods-KTNinePatchImageTests.release.xcconfig"; sourceTree = "<group>"; };
+		87406884C898641C12E879CC /* libPods-KTNinePatchImageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTNinePatchImageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C72BBA92197EB240076511E /* KTNinePatchImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTNinePatchImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C72BBAC2197EB240076511E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C72BBAD2197EB240076511E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +71,12 @@
 		9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImage.m; sourceTree = "<group>"; };
 		9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImageCache.m; sourceTree = "<group>"; };
 		9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImageView.m; sourceTree = "<group>"; };
+		9C72BBEB2198480B0076511E /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		9D601D8B3AC12A2237EB9C93 /* libPods-KTNinePatchImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTNinePatchImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0FE7668BDC0A9B7CABE888 /* libPods-KTNinePatchImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTNinePatchImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41C32FA39C150EC29660574 /* Pods-KTNinePatchImageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImageUITests/Pods-KTNinePatchImageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA0974B25A09DD23D168DCB1 /* Pods-KTNinePatchImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImage/Pods-KTNinePatchImage.release.xcconfig"; sourceTree = "<group>"; };
+		FB7DFE696272ACD23791F832 /* Pods-KTNinePatchImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImage/Pods-KTNinePatchImage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE78DE84488D162FDC37B25A /* libPods-KTNinePatchImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5502932579B8CAD2648FAE7A /* libPods-KTNinePatchImageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BA3C8F41600CBCD42F9DC9 /* libPods-KTNinePatchImageUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49777685EAFDFD030F3E111D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D601D8B3AC12A2237EB9C93 /* libPods-KTNinePatchImage.a */,
+				AD0FE7668BDC0A9B7CABE888 /* libPods-KTNinePatchImageTests.a */,
+				87406884C898641C12E879CC /* libPods-KTNinePatchImageUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783246AABAB5A73E9477AB4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7DFE696272ACD23791F832 /* Pods-KTNinePatchImage.debug.xcconfig */,
+				EA0974B25A09DD23D168DCB1 /* Pods-KTNinePatchImage.release.xcconfig */,
+				60256674E3E2E716F5329292 /* Pods-KTNinePatchImageTests.debug.xcconfig */,
+				83788A7B6DDEF879BF15B48B /* Pods-KTNinePatchImageTests.release.xcconfig */,
+				1D7331857C3AB521112D0D71 /* Pods-KTNinePatchImageUITests.debug.xcconfig */,
+				E41C32FA39C150EC29660574 /* Pods-KTNinePatchImageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9C72BBA02197EB240076511E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +137,8 @@
 				9C72BBC42197EB260076511E /* KTNinePatchImageTests */,
 				9C72BBCF2197EB260076511E /* KTNinePatchImageUITests */,
 				9C72BBAA2197EB240076511E /* Products */,
+				783246AABAB5A73E9477AB4A /* Pods */,
+				49777685EAFDFD030F3E111D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +160,7 @@
 				9C72BBAD2197EB240076511E /* AppDelegate.m */,
 				9C72BBAF2197EB240076511E /* ViewController.h */,
 				9C72BBB02197EB240076511E /* ViewController.m */,
+				9C72BBEB2198480B0076511E /* test1.png */,
 				9C72BBB22197EB240076511E /* Main.storyboard */,
 				9C72BBB52197EB250076511E /* Assets.xcassets */,
 				9C72BBB72197EB250076511E /* LaunchScreen.storyboard */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C72BBD52197EB260076511E /* Build configuration list for PBXNativeTarget "KTNinePatchImage" */;
 			buildPhases = (
+				AF348F7E9A6B12FEDFBD977F /* [CP] Check Pods Manifest.lock */,
 				9C72BBA52197EB240076511E /* Sources */,
 				9C72BBA62197EB240076511E /* Frameworks */,
 				9C72BBA72197EB240076511E /* Resources */,
@@ -184,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C72BBD82197EB260076511E /* Build configuration list for PBXNativeTarget "KTNinePatchImageTests" */;
 			buildPhases = (
+				01FA463D89FB5DBFB9D833EF /* [CP] Check Pods Manifest.lock */,
 				9C72BBBD2197EB260076511E /* Sources */,
 				9C72BBBE2197EB260076511E /* Frameworks */,
 				9C72BBBF2197EB260076511E /* Resources */,
@@ -202,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C72BBDB2197EB260076511E /* Build configuration list for PBXNativeTarget "KTNinePatchImageUITests" */;
 			buildPhases = (
+				E5FBDBEAA77AEFB84E09DE68 /* [CP] Check Pods Manifest.lock */,
 				9C72BBC82197EB260076511E /* Sources */,
 				9C72BBC92197EB260076511E /* Frameworks */,
 				9C72BBCA2197EB260076511E /* Resources */,
@@ -264,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C72BBB92197EB250076511E /* LaunchScreen.storyboard in Resources */,
+				9C72BBEC2198480B0076511E /* test1.png in Resources */,
 				9C72BBB62197EB250076511E /* Assets.xcassets in Resources */,
 				9C72BBB42197EB240076511E /* Main.storyboard in Resources */,
 			);
@@ -284,6 +331,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FA463D89FB5DBFB9D833EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTNinePatchImageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF348F7E9A6B12FEDFBD977F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTNinePatchImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FBDBEAA77AEFB84E09DE68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTNinePatchImageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C72BBA52197EB240076511E /* Sources */ = {
@@ -463,6 +567,7 @@
 		};
 		9C72BBD62197EB260076511E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7DFE696272ACD23791F832 /* Pods-KTNinePatchImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +585,7 @@
 		};
 		9C72BBD72197EB260076511E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0974B25A09DD23D168DCB1 /* Pods-KTNinePatchImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +603,7 @@
 		};
 		9C72BBD92197EB260076511E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60256674E3E2E716F5329292 /* Pods-KTNinePatchImageTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +623,7 @@
 		};
 		9C72BBDA2197EB260076511E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83788A7B6DDEF879BF15B48B /* Pods-KTNinePatchImageTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +643,7 @@
 		};
 		9C72BBDC2197EB260076511E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7331857C3AB521112D0D71 /* Pods-KTNinePatchImageUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2536D3J6MP;
@@ -553,6 +662,7 @@
 		};
 		9C72BBDD2197EB260076511E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41C32FA39C150EC29660574 /* Pods-KTNinePatchImageUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2536D3J6MP;

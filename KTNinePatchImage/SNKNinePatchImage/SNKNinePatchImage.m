@@ -58,6 +58,23 @@ static void s_scalePaddingCap(SNKNinePatchPaddingCap *paddingCap, CGFloat scale)
 
 @implementation SNKNinePatchImage
 
++ (instancetype)ninePatchImageWithName:(NSString *)name
+{
+    NSData *data = nil;
+    if ([name hasSuffix:@".png"] || [name hasSuffix:@".PNG"]) {
+        NSString *fileName = [[NSBundle mainBundle] pathForResource:name ofType:nil];
+        data = [NSData dataWithContentsOfFile:fileName];
+    } else {
+        NSString *fileName = [[NSBundle mainBundle] pathForResource:name ofType:@"png"];
+        data = [NSData dataWithContentsOfFile:fileName];
+    }
+    if (data) {
+        return [self ninePatchImageWithImageData:data];
+    }
+    
+    return nil;
+}
+
 + (instancetype)ninePatchImageWithImageData:(NSData *)data
 {
     return [self ninePatchImageWithImageData:data scale:1];

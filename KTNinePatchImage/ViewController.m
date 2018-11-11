@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *image = [UIImage new];
+    image = [image resizableImageWithCapInsets:UIEdgeInsetsMake(1, 1, 1, 1)];
 }
 
 

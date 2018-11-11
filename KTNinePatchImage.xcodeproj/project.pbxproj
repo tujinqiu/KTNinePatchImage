@@ -15,6 +15,10 @@
 		9C72BBBC2197EB250076511E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBBB2197EB250076511E /* main.m */; };
 		9C72BBC62197EB260076511E /* KTNinePatchImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBC52197EB260076511E /* KTNinePatchImageTests.m */; };
 		9C72BBD12197EB260076511E /* KTNinePatchImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBD02197EB260076511E /* KTNinePatchImageUITests.m */; };
+		9C72BBE72197FDAA0076511E /* SNKNinePatchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE32197FDAA0076511E /* SNKNinePatchButton.m */; };
+		9C72BBE82197FDAA0076511E /* SNKNinePatchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */; };
+		9C72BBE92197FDAA0076511E /* SNKNinePatchImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */; };
+		9C72BBEA2197FDAA0076511E /* SNKNinePatchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		9C72BBCC2197EB260076511E /* KTNinePatchImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTNinePatchImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C72BBD02197EB260076511E /* KTNinePatchImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNinePatchImageUITests.m; sourceTree = "<group>"; };
 		9C72BBD22197EB260076511E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C72BBDF2197FDAA0076511E /* SNKNinePatchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKNinePatchImage.h; sourceTree = "<group>"; };
+		9C72BBE02197FDAA0076511E /* SNKNinePatchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKNinePatchButton.h; sourceTree = "<group>"; };
+		9C72BBE12197FDAA0076511E /* SNKNinePatchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKNinePatchImageView.h; sourceTree = "<group>"; };
+		9C72BBE22197FDAA0076511E /* SNKNinePatchImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKNinePatchImageCache.h; sourceTree = "<group>"; };
+		9C72BBE32197FDAA0076511E /* SNKNinePatchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchButton.m; sourceTree = "<group>"; };
+		9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImage.m; sourceTree = "<group>"; };
+		9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImageCache.m; sourceTree = "<group>"; };
+		9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		9C72BBAB2197EB240076511E /* KTNinePatchImage */ = {
 			isa = PBXGroup;
 			children = (
+				9C72BBDE2197FDAA0076511E /* SNKNinePatchImage */,
 				9C72BBAC2197EB240076511E /* AppDelegate.h */,
 				9C72BBAD2197EB240076511E /* AppDelegate.m */,
 				9C72BBAF2197EB240076511E /* ViewController.h */,
@@ -130,6 +143,21 @@
 				9C72BBD22197EB260076511E /* Info.plist */,
 			);
 			path = KTNinePatchImageUITests;
+			sourceTree = "<group>";
+		};
+		9C72BBDE2197FDAA0076511E /* SNKNinePatchImage */ = {
+			isa = PBXGroup;
+			children = (
+				9C72BBE02197FDAA0076511E /* SNKNinePatchButton.h */,
+				9C72BBE32197FDAA0076511E /* SNKNinePatchButton.m */,
+				9C72BBDF2197FDAA0076511E /* SNKNinePatchImage.h */,
+				9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */,
+				9C72BBE22197FDAA0076511E /* SNKNinePatchImageCache.h */,
+				9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */,
+				9C72BBE12197FDAA0076511E /* SNKNinePatchImageView.h */,
+				9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */,
+			);
+			path = SNKNinePatchImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C72BBB12197EB240076511E /* ViewController.m in Sources */,
+				9C72BBE82197FDAA0076511E /* SNKNinePatchImage.m in Sources */,
+				9C72BBE92197FDAA0076511E /* SNKNinePatchImageCache.m in Sources */,
+				9C72BBEA2197FDAA0076511E /* SNKNinePatchImageView.m in Sources */,
+				9C72BBE72197FDAA0076511E /* SNKNinePatchButton.m in Sources */,
 				9C72BBBC2197EB250076511E /* main.m in Sources */,
 				9C72BBAE2197EB240076511E /* AppDelegate.m in Sources */,
 			);

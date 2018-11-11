@@ -7,6 +7,7 @@
 //
 
 #import "SNKNinePatchImage.h"
+#import "SNKNinePatchImageCache.h"
 
 static NSString *const kSNKNinePatchImageErrorDomain = @"kSNKNinePatchImageErrorDomain";
 
@@ -60,6 +61,11 @@ static void s_scalePaddingCap(SNKNinePatchPaddingCap *paddingCap, CGFloat scale)
 
 + (instancetype)ninePatchImageWithName:(NSString *)name
 {
+    SNKNinePatchImage *image = [[SNKNinePatchImageCache sharedCache] ninePatchImageNamed:name];
+    if (image) {
+        return image;
+    }
+    
     NSData *data = nil;
     if ([name hasSuffix:@".png"] || [name hasSuffix:@".PNG"]) {
         NSString *fileName = [[NSBundle mainBundle] pathForResource:name ofType:nil];
@@ -69,7 +75,11 @@ static void s_scalePaddingCap(SNKNinePatchPaddingCap *paddingCap, CGFloat scale)
         data = [NSData dataWithContentsOfFile:fileName];
     }
     if (data) {
-        return [self ninePatchImageWithImageData:data];
+        image = [self ninePatchImageWithImageData:data];
+        if (image) {
+            [[SNKNinePatchImageCache sharedCache] setNinePatchImage:image forName:name];
+        }
+        return image;
     }
     
     return nil;

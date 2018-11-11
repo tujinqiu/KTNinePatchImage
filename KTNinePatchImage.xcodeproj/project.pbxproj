@@ -21,7 +21,7 @@
 		9C72BBE82197FDAA0076511E /* SNKNinePatchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */; };
 		9C72BBE92197FDAA0076511E /* SNKNinePatchImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */; };
 		9C72BBEA2197FDAA0076511E /* SNKNinePatchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */; };
-		9C72BBEC2198480B0076511E /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C72BBEB2198480B0076511E /* test1.png */; };
+		E3C858232198547600C49A4D /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C858222198547600C49A4D /* test1.png */; };
 		EE78DE84488D162FDC37B25A /* libPods-KTNinePatchImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D601D8B3AC12A2237EB9C93 /* libPods-KTNinePatchImage.a */; };
 /* End PBXBuildFile section */
 
@@ -71,9 +71,9 @@
 		9C72BBE42197FDAA0076511E /* SNKNinePatchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImage.m; sourceTree = "<group>"; };
 		9C72BBE52197FDAA0076511E /* SNKNinePatchImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImageCache.m; sourceTree = "<group>"; };
 		9C72BBE62197FDAA0076511E /* SNKNinePatchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKNinePatchImageView.m; sourceTree = "<group>"; };
-		9C72BBEB2198480B0076511E /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
 		9D601D8B3AC12A2237EB9C93 /* libPods-KTNinePatchImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTNinePatchImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0FE7668BDC0A9B7CABE888 /* libPods-KTNinePatchImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTNinePatchImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C858222198547600C49A4D /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
 		E41C32FA39C150EC29660574 /* Pods-KTNinePatchImageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImageUITests/Pods-KTNinePatchImageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA0974B25A09DD23D168DCB1 /* Pods-KTNinePatchImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImage/Pods-KTNinePatchImage.release.xcconfig"; sourceTree = "<group>"; };
 		FB7DFE696272ACD23791F832 /* Pods-KTNinePatchImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTNinePatchImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTNinePatchImage/Pods-KTNinePatchImage.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 				9C72BBAD2197EB240076511E /* AppDelegate.m */,
 				9C72BBAF2197EB240076511E /* ViewController.h */,
 				9C72BBB02197EB240076511E /* ViewController.m */,
-				9C72BBEB2198480B0076511E /* test1.png */,
+				E3C858222198547600C49A4D /* test1.png */,
 				9C72BBB22197EB240076511E /* Main.storyboard */,
 				9C72BBB52197EB250076511E /* Assets.xcassets */,
 				9C72BBB72197EB250076511E /* LaunchScreen.storyboard */,
@@ -310,8 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C72BBB92197EB250076511E /* LaunchScreen.storyboard in Resources */,
-				9C72BBEC2198480B0076511E /* test1.png in Resources */,
 				9C72BBB62197EB250076511E /* Assets.xcassets in Resources */,
+				E3C858232198547600C49A4D /* test1.png in Resources */,
 				9C72BBB42197EB240076511E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

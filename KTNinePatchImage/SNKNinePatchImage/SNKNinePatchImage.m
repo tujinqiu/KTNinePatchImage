@@ -140,7 +140,7 @@ static void s_scalePaddingCap(SNKNinePatchPaddingCap *paddingCap, CGFloat scale)
     uint32_t ahead1 = [self p_getByte4FromData:data startPos:&startPos];
     SNKNinePatchTestDataByte(ahead1)
     uint32_t ahead2 = [self p_getByte4FromData:data startPos:&startPos];
-    SNKNinePatchTestDataByte(ahead1)
+    SNKNinePatchTestDataByte(ahead2)
     if (ahead1 != 0x89504e47 || ahead2 != 0x0D0A1A0A) {
         return nil;
     }
